@@ -1,3 +1,4 @@
+//Dice with more probability of occuring 6
 import random
 
 def roll_dice():
