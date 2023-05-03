@@ -26,11 +26,7 @@ def roll_dice():
     image2=ImageTk.PhotoImage(Image.open(random.choice(dice)))
     label2.configure(image=image2)
     label2.image=image2
-
-   
-
-# button=tk.Button(window,text="click",command=roll_dice)
-# button.pack()
+    
 button=tk.Button(window,text="Roll The Dice!",bg="purple",fg="white",width="20",height="1",font="Calibri 20 bold",command=roll_dice)
 button.place(x=490,y=0)
 window.mainloop()
